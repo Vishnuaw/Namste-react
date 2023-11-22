@@ -23,5 +23,33 @@ Package-lock.json: It keeps track of exact version
 Node_Modules     : It is Database for NPM..Trasitive dependencies are also installed  
                    Collection of dependencies.          
                    Its approx 285MB so it will take up a lot of space.
-THE BEST PRACTICE :  Put it in a GitIgnore file,If u dont want to put it on Github       
+THE BEST PRACTICE :  Put it in a GitIgnore file,If u dont want to put it on Github      
+
+     # PARCEL is doing
+     - Dev Build
+     - Local server 
+     - HMR = Hot Module replacement
+     - File watching algorithm - written in C++
+     - caching things -Faster Build--->Parcel Cache
+     - Image Optimization
+     - Minification
+     - Bundling
+     - Compressing
+     - Consistent Hashing
+     - Code-splitting
+     - Differntial-Bundling
+     - Diagnostic
+     - Error Handling
+     - Host in ur HTTPS
+     -Tree Shaking -will remove unused code for you
+
+
+  npx parcel build index.html 
+  Now you can serve to the Production --The App will be performant,fast and Optimized.
+
+  Want to prove me wrong -- https://parceljs.org/   
+
+
+
+
 
